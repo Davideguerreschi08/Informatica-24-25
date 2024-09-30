@@ -1,0 +1,2 @@
+C:\Users\DAVIDE~1\AppData\Local\Temp\ccKYR11f.o	prova2.c:(.text+0x4f): undefined reference to `print'
+\\fs01.galilei.intranet\Users$\Studenti\davide.guerreschi\informatica\C\collect2.exe	[Error] ld returned 1 exit status
