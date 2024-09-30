@@ -1,0 +1,17 @@
+
+    #include <stdio.h>
+    int main(){
+    int a, b;
+    printf("inserisci il primo valore:");
+    scanf("%d, &a")
+    printf("inserisci il secondo valore:");
+    scanf("%d, &b");
+    if(a==b){
+        printf("a è uguale a b");
+        if(a<b)
+        printf("a, %d è minore di , %d", a,b);
+        if("a>b");
+        printf("a, %d è maggiore di , %d", a,b);
+    }
+    
+}

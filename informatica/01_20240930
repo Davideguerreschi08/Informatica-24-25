@@ -19,6 +19,7 @@ int main(){
     else{
         printf("il primo valore %f non corrisponde al quadrato di %f ", A,B);
     }
+    return 0;
 
     }
    
