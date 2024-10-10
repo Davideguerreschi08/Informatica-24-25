@@ -4,6 +4,26 @@
     // Per altre informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "(gdb) Associa",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "immettere il nome del programma, ad esempio ${workspaceFolder}/a.out",
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Abilita la riformattazione per gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Imposta Versione Disassembly su Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+        
         
 
     ]
