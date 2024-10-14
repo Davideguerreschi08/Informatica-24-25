@@ -1,4 +1,4 @@
-12
+
 /* Esercizio Scrivere un programma che letto due orari in ore,
  minuti e secondi restituisce quale orario viene prima*/
 
