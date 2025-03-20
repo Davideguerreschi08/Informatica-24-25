@@ -28,4 +28,17 @@ void VettoreRandom(int vettore[],int dim, int minimo, int massimo){
     srand(time(NULL));
     for(int i=0; i<dim; i++){
         vettore[i]=rand()%(massimo-minimo+1)+minimo;
+    }
+}
+void media(int vettore[],int dim){
+
+    int somma=0;
+    float media=0;
+
+    for(int i=0; i<dim; i++){
+        somma+=vettore[i];
+    }
+
+    media=somma/dim;
+    printf("La media corrisponde a %.2f. ", media);
 }
