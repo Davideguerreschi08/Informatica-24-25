@@ -6,23 +6,21 @@ random calcolare la media */
 #define DIM 10
 
 int main(){
-    float m;
     int min=0,max=100;
     int v[DIM]={0};
     VettoreRandom(v, DIM, min, max);
-    m=media(m);
-    printf("La media corrisponde a %.2f. ", m);
+    media(v,DIM);
 }
 
-float media(int v[],int dim){
+void media(int vet[],int dim){
 
     int s=0;
     float m;
 
     for(int i=0; i<dim; i++){
-        s+=v[i];
+        s+=vet[i];
     }
 
     m=s/dim;
-    return m;
+    printf("La media corrisponde a %.2f. ", m);
 }
