@@ -7,7 +7,7 @@ random calcolare la media */
 
 int main(){
     int min=0,max=100;
-    int v[DIM]={0};
+    int v[DIM];
     stampaVettore(v,DIM,' ');
     VettoreRandom(v, DIM, min, max);
     media(v,DIM);

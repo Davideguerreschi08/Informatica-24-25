@@ -40,5 +40,5 @@ void media(int vettore[],int dim){
     }
 
     media=somma/dim;
-    printf("La media corrisponde a %.2f. ", media);
+    printf("\nLa media corrisponde a %.2f. ", media);
 }
