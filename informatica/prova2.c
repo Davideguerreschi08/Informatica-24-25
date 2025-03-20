@@ -17,7 +17,7 @@ int main(){
 	scanf("%f", &altezza);
 	
 	area=(base*altezza)/2;
-	printf("l'area del trangolo è: %f0.2", area);	
+	printf("l'area del trangolo Ã¨: %f0.2", area);	
 
 }
 

@@ -4,9 +4,10 @@ Esempio:  tra la data 5/07/2024 e  14/07/2024  la più recente è il 14/07/2024.
 
 #include <stdio.h>
 int main(){
+	
     int g, m, a, g2, m2, a2;
     
-   
+		//richiesta della prima data
         printf ("Inserisci il giorno della data numero 1\n");
        	 scanf ("%d", &g);
         	printf ("Inserisci il mese della data numero 1\n");
@@ -14,7 +15,7 @@ int main(){
         	printf ("Inserisci l'anno della data numero 1\n");
       	  scanf ("%d", &a);
 
-
+				//richiesta della seconda data
         		printf ("Inserisci il giorno  numero 2\n");
         	scanf ("%d", &g2);
         	printf ("Inserisci il mese numero 2\n");

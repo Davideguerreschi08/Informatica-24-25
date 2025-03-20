@@ -17,7 +17,7 @@ da 2 cifre e k compare 1 volta*/
 	int conta_cifre;
 	printf("scegli un numero: ");
 	scanf("%d", &k);
-	if(k>9999 && k<0){ 
+	if(k<9999 && k<0){ 
 		printf("scegli un altro numero\n");
 	}
 	if (k<=9){

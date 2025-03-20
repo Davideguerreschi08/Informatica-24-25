@@ -1,4 +1,4 @@
-// coomento su una riga
+// commento su una riga
 /* Esercizio
 	scrivere il doppio di un numero
 	fornito da tastiera

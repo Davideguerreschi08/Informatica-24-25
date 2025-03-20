@@ -2,9 +2,7 @@
 #include <stdio.h>
 int main(){
     float A, B, quadrato;
-    float quadrato
-    float A=0;
-    float B=0;
+    
     quadrato= B*B;
     printf("inserici il primo valore: ");
     printf("inserici il secondo valore: ");

@@ -27,7 +27,7 @@ una somma di denaro calcolare il controvalore.*/
 		if(cambio==1){
 			printf("inserisci il numero di euro: ");
 			scanf("%f", &dollari);
-			dollari= euro* cambiodollari;
+			dollari= euro/ cambiodollari;
 			printf("il cambio è di %.2f\n dollari", dollari);
 		}
 		else if (cambio==2){
@@ -35,7 +35,8 @@ una somma di denaro calcolare il controvalore.*/
 			scanf("%f", &euro);
 			euro= cambioeuro* dollari;
 			printf("il cambio è di %.2f\n euro", euro);
-	}
+	}	else
+		printf("l' operazione è errata");
 		
 		
 		
