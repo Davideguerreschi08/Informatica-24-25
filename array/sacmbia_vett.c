@@ -1,4 +1,4 @@
-/*dati 2 vettori V1 V2 eseguire lo scambio dei valori*/
+/*dati 2 vettori V1 e V2 eseguire lo scambio dei valori*/
 #include <stdio.h>
 #include "libArray.h"
 #include "libArray.c"
@@ -8,6 +8,7 @@
 int main(){
     int v1[DIM], v2[DIM], t;
     riempiVettoreCasuale ( v1, DIM, 1, 70);
+    printf("\n");
     riempiVettoreCasuale ( v2, DIM, 8, 80);
     stampaVettore(v1, DIM, '-');
     printf("\n");
@@ -18,7 +19,8 @@ int main(){
         v1[i]=v2[i];
         v2[i]=t;
     }
-   printf("scambio:\n ");
+   printf("\nscambio:");
+   printf("\n");
    stampaVettore(v1, DIM, '-');
    printf("\n");
    stampaVettore(v1, DIM, '-');  
